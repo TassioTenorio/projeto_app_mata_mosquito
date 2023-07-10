@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App html</title>
+    <script src="jogo.js"></script>
+</head>
+<link rel="stylesheet" href="estilo.css">
+
+<body onresize="ajustaTamanhoPalcoJogo()">
+    <div class="painel">
+        <div class="vidas">
+            <img id="V1" src="coracao_cheio.png" alt="">
+            <img id="V2" src="coracao_cheio.png" alt="">
+            <img id="V3" src="coracao_cheio.png" alt="">
+            <div class=" cronômetro"> Tempo restante: <span id="cronometro"></span></div>
+        </div>
+
+    </div>
+
+    <script>
+        document.getElementById('cronometro').innerHTML = tempo
+
+     var criaMosquito = setInterval(function () {
+            posicaoRandomica()
+        }, criaMosquitoTempo)
+    </script>
+</body>
+
+</html>
