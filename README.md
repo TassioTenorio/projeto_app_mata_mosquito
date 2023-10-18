@@ -1,2 +1,2 @@
-# projeto_app_mata_mosquito
-Esse app é um jogo no qual o usuário pode clicar em cima dos mosquitos e eles morrerão, caso ele não os mate a tempo, perderá.
+#project_app_kills_mosquito
+This app is a game in which the user can click on the mosquitoes and they will die, if he doesn't kill them in time, he will lose.
